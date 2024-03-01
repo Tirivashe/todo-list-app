@@ -1,0 +1,18 @@
+.root {
+  background-color: #9eb031;
+  border: 2px solid #9eb031;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  height: 113px;
+  color: #071d55;
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  top: -2px;
+  right: 4rem;
+  background-color: #071d55;
+  color: #f2c94c;
+  height: 66px;
+  width: 60px;
+}
