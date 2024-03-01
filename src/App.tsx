@@ -79,7 +79,14 @@ function App() {
       <Header currentScreen={screen} />
       <Ad />
       <Affix position={{ bottom: 20, right: 20 }}>
-        <Button onClick={() => setScreen(Screens.Create)}>+</Button>
+        <Button
+          radius="xl"
+          size="lg"
+          color="#123EB1"
+          onClick={() => setScreen(Screens.Create)}
+        >
+          +
+        </Button>
       </Affix>
       <TodoList
         todos={todos}
